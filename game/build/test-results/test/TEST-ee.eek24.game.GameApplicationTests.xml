@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ee.eek24.game.GameApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-13T13:04:57" hostname="JEVGENI" time="0.735">
+  <properties/>
+  <testcase name="contextLoads()" classname="ee.eek24.game.GameApplicationTests" time="0.735"/>
+  <system-out><![CDATA[15:04:55.878 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [ee.eek24.game.GameApplicationTests]: GameApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:04:55.968 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration ee.eek24.game.GameApplication for test class ee.eek24.game.GameApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2024-03-13T15:04:56.423+02:00  INFO 2160 --- [game] [    Test worker] ee.eek24.game.GameApplicationTests       : Starting GameApplicationTests using Java 21.0.2 with PID 2160 (started by Zenja in C:\Users\Zenja\Desktop\EEK\4 semestr\Web applications\CW1\game)
+2024-03-13T15:04:56.426+02:00  INFO 2160 --- [game] [    Test worker] ee.eek24.game.GameApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2024-03-13T15:04:57.715+02:00  INFO 2160 --- [game] [    Test worker] ee.eek24.game.GameApplicationTests       : Started GameApplicationTests in 1.565 seconds (process running for 2.77)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\Zenja\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.12\be4984cb6fd1ef1d11f218a648889dfda44b8a15\byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
