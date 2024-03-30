@@ -1,0 +1,11 @@
+version: '3'
+services:
+  database:
+    image: postgres:15
+    container_name: homework-1
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_DB=homework
+      - POSTGRES_USER=homework
+      - POSTGRES_PASSWORD=homework
